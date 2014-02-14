@@ -12,7 +12,6 @@ public class Group_01_3sem {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Pedro is sooooo gay");
         if(new Random().nextInt(2)%1 == 1)
         {
             System.out.println("YEAH!!!");
