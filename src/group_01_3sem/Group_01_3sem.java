@@ -13,6 +13,7 @@ public class Group_01_3sem {
         System.out.println("Pedro is sooooo gay");
         System.out.println("Pedro is sooooooooooooooooooooooooo gay");
         System.out.println("Noobs.");
+        System.out.println("ÅHHHHH PEDRO!!!!!");
     }
     
 }
