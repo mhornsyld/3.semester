@@ -13,5 +13,7 @@ public interface Account {
     public int getCustomerNumber();
     public BigDecimal getBalance();
     public void addFunds(BigDecimal funds);
+    public void transferFunds(BigDecimal funds, Account account);
+    public BigDecimal cashOut(BigDecimal amount);
     public void addInterests();
 }
