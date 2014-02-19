@@ -1,5 +1,7 @@
 package Interface;
 
+import java.math.BigDecimal;
+
 /**
  *
  * @author Jacob
@@ -7,9 +9,9 @@ package Interface;
 public interface Account {
     public int getAccountNumber();
     public int getRegistrationNumber();
-    public int getInterestRate();
+    public BigDecimal getInterestRate();
     public int getCustomerNumber();
-    public int getBalance();
-    public void addFunds(int funds);
+    public BigDecimal getBalance();
+    public void addFunds(BigDecimal funds);
     public void addInterests();
 }
