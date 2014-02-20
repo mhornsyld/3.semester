@@ -9,7 +9,9 @@ import java.math.BigDecimal;
 public interface Account {
     public int getAccountNumber();
     public int getRegistrationNumber();
+    public void setRegistrationNumber(int registrationNumber);
     public BigDecimal getInterestRate();
+    public void setInterestRate(BigDecimal interestRate);
     public int getCustomerNumber();
     public BigDecimal getBalance();
     public void addFunds(BigDecimal funds);
